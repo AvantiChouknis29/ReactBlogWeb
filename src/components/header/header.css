@@ -1,0 +1,36 @@
+.header{
+    margin-top:30px;
+   
+}
+h2{
+    color: rgb(235, 103, 47);
+    font-style: italic;
+    font-size: 32px;
+}
+
+.headerTitles{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Slab', serif;
+    color: #444;
+   
+}
+.headerTitleSm{
+    position: absolute;
+    top:18%;
+    font-size: 20px;
+    color: #c3e001;
+}
+.headerTitleLg{
+    position: absolute;
+    top:20%;
+    font-size: 90px;
+    color: #c3e001;
+}
+.headerImg{
+    width:100%;
+    height:450px;
+    margin-top:8px;
+    object-fit: cover;
+}
